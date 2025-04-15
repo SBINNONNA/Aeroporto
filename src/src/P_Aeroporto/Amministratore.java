@@ -1,6 +1,6 @@
 package P_Aeroporto;
 
-public class Amministratore {
+public class Amministratore extends Utente {
 
     public void Inserire(){
 
