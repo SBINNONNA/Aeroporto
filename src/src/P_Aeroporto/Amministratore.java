@@ -2,6 +2,9 @@ package P_Aeroporto;
 
 public class Amministratore extends Utente {
 
+    public Amministratore(String login,String password){
+        super(login,password);
+    }
     public void Inserire(){
 
     }
@@ -9,7 +12,6 @@ public class Amministratore extends Utente {
 
     }
     public void AssegnaGate(){
-
     }
 
 }

@@ -3,7 +3,8 @@ package P_Aeroporto;
 public class UtenteGenerico extends Utente {
     private String nome;
 
-    public UtenteGenerico(String nome){
+    public UtenteGenerico(String nome, String login, String password){
+        super(login, password);
         this.nome = nome;
     }
     public void setNome(String nome) {

@@ -38,14 +38,7 @@ public class Prenotazione {
  }
 
 
-
-
-
-
-
-
-
-    public void checkIn() {
+ public void checkIn() {
 
     }
 
