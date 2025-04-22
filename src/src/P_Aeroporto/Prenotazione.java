@@ -4,11 +4,13 @@ public class Prenotazione {
     private int numero;
     private String posto;
     private StatoPrenotazione stato;
+    int numeroBagagli;
 
- public Prenotazione(int numero, String posto, StatoPrenotazione stato) {
+ public Prenotazione(int numero, String posto, StatoPrenotazione stato, int numeroBagagli) {
      this.numero = numero;
      this.posto = posto;
      this.stato = stato;
+     this.numeroBagagli = numeroBagagli;
  }
  public void setNumero(int numero) {
      this.numero = numero;
@@ -27,6 +29,12 @@ public class Prenotazione {
  }
  public StatoPrenotazione getStato() {
      return stato;
+ }
+ public void setNumeroBagagli(int numeroBagagli) {
+     this.numeroBagagli = numeroBagagli;
+ }
+ public int getNumeroBagagli() {
+     return numeroBagagli;
  }
 
 

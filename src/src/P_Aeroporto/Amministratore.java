@@ -11,9 +11,5 @@ public class Amministratore extends Utente {
     public void AssegnaGate(){
 
     }
-    public void Bagaglio(){
-
-    }
-    public void VisualizzaSmarrimenti(){}
 
 }
