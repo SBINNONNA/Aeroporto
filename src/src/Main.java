@@ -1,5 +1,4 @@
-import P_Aeroporto.StatoVolo;
-import P_Aeroporto.Volo;
+import model.*;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

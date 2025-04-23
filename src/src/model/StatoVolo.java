@@ -1,4 +1,4 @@
-package P_Aeroporto;
+package model;
 
 public enum StatoVolo {
     PROGRAMMATO,

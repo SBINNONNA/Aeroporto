@@ -1,4 +1,4 @@
-package P_Aeroporto;
+package model;
 
 public class UtenteGenerico extends Utente {
     private String nome;

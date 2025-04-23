@@ -1,4 +1,4 @@
-package P_Aeroporto;
+package model;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
